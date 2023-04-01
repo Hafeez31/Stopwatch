@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="watch-img-div">
+        <img src="stopwatch.jpg" alt="Stopwatch Image" />
+      </div>
+      <div class="stopwatch-body">
+        <div class="title">
+          <span>Haffee Stopwatch</span>
+        </div>
+
+        <div class="stopwatch-main">
+          <div class="display-timer">
+            <h1 id="hours">00</h1>
+            <h1>:</h1>
+            <h1 id="minutes">00</h1>
+            <h1>:</h1>
+            <h1 id="seconds">00</h1>
+          </div>
+
+          <button class="btn start-btn" id="start-btn" onclick="startTimer();">
+            Start
+          </button>
+          <button class="btn pause-btn" onclick="pauseTimer();">Pause</button>
+          <button class="btn reset-btn" onclick="resetTimer();">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js" type="text/javascript"></script>
+</html>
